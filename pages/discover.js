@@ -4,9 +4,13 @@ import Link from 'next/link'
 const Discover = () => (
   <div>
     <Link href="/country" as="/discover/country">
-      <a>Country Page</a>
-    </Link>
 
+
+    <video id="background-video" height="736" loop autoPlay>
+    <source src="/static/miami_1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+    </Link>
     <style jsx>{`
       a {
        color: white;
