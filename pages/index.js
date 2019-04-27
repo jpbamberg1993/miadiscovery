@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import PageTransition from 'react-router-page-transition';
+
 
 const baseUrl = 'http://localhost:3000'
 
