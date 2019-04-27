@@ -5,41 +5,139 @@ class Restaurant extends Component {
   render() {
     return (
       <div className="Restaurants">
-        <h1> Peruvian cuisine</h1>
+        <h1 className="title"> Peruvian cuisine</h1>
         <div className="List">
-          <ul>
+          <ul><h1>CVI.CHE 105</h1>
             <Link href="/description">
-              <a><li>CVI.CHE 105</li></a>
+              <a><li className="Res1"></li></a>
             </Link>
+            <h1>Locura Marina</h1>
             <Link href="/description">
-              <a><li>Locura Marina</li></a>
+              <a><li className="Res2"></li></a>
             </Link>
+            <h1>GKB</h1>
             <Link href="/description">
-              <a><li>Ola</li></a>
+              <a><li className="Res3"></li></a>
             </Link>
+            <h1>O'lima Signature Cuisine</h1>
             <Link href="/description">
-              <a><li>O'lima Signature Cuisine</li></a>
+              <a><li className="Res4"></li></a>
             </Link>
+            <h1>Pollos Y Jarras</h1>
             <Link href="/description">
-              <a><li>Pollos Y Jarras</li></a>
+              <a><li className="Res5"></li></a>
             </Link>
+            <h1>Suviche Sobe</h1>
             <Link href="/description">
-              <a><li>Suviche Sobe</li></a>
+              <a><li className="Res6"></li></a>
             </Link>
+            <h1>1111 Peruvian Bistro</h1>
             <Link href="/description">
-              <a><li>1111 Peruvian Bistro</li></a>
+              <a><li className="Res7"></li></a>
             </Link>
+            <h1>Merkado 31</h1>
             <Link href="/description">
-              <a><li>Merkado 31</li></a>
+              <a><li className="Res8"></li></a>
             </Link>
+            <h1>La Mar</h1>
             <Link href="/description">
-              <a><li>La Mar</li></a>
+              <a><li className="Res9"></li></a>
             </Link>
+            <h1>Farolito Peruvian Cuisine</h1>
             <Link href="/description">
-              <a><li>Farolito Peruvian Cuisine</li></a>
+              <a><li className="Res0"></li></a>
             </Link>
           </ul>
         </div>
+        <style jsx>{`
+        .List {
+          margin: 50px;
+        }
+        .title {
+          display: flex;
+          justify-content: center;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          margin-bottom: 0rem;
+          border: solid 1px black;
+          height: 20rem;
+        }
+        .Res1 {
+          background-color: pink;
+          background-image: url("/static/o.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res2 {
+          background-color: pink;
+          background-image: url("/static/m.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res3 {
+          background-color: pink;
+          background-image: url("/static/n.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res4 {
+          background-color: pink;
+          background-image: url("/static/p.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res5 {
+          background-color: pink;
+          background-image: url("/static/q.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res6 {
+          background-color: pink;
+          background-image: url("/static/r.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res7 {
+          background-color: pink;
+          background-image: url("/static/s.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res8 {
+          background-color: pink;
+          background-image: url("/static/t.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res9 {
+          background-color: pink;
+          background-image: url("/static/u.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res0 {
+          background-color: pink;
+          background-image: url("/static/v.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      `}</style>
       </div>
     );
   }
