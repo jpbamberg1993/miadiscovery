@@ -6,12 +6,12 @@ const baseUrl = 'http://localhost:3000'
 class Home extends React.Component {
   render() {
     return (
-      <div class="landing">
+      <div className="landing">
         <Link href="/discover">
-          <div class="focus-in-contract-bck">
+          <div className="focus-in-contract-bck">
             <a>
               Discover the World in <br />
-              <span class="span">Miami</span>
+              <span className="span">Miami</span>
             </a>
           </div>
         </Link>
