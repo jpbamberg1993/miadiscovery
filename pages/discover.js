@@ -7,8 +7,6 @@ const Discover = () => (
       <a>Country Page</a>
     </Link>
 
-
-
     <style jsx>{`
       a {
        color: white;
