@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "country": "Cuba",
+        "url": "/static/cuba.svg"
+    },
+    {
+        "id": 2,
+        "country": "Peru",
+        "url": "/static/peru.svg"
+    },
+    {
+        "id": 3,
+        "country": "Venezuela",
+        "url": "/static/venezuela.svg"
+    },
+    {
+        "id": 4,
+        "country": "Italy",
+        "url": "/static/italy.svg"
+    },
+    {
+        "id": 5,
+        "country": "Argentina",
+        "url": "/static/argentina.svg"
+    },
+    {
+        "id": 6,
+        "country": "Colombia",
+        "url": "/static/colombia.svg"
+    },
+    {
+        "id": 7,
+        "country": "Brazil",
+        "url": "/static/brazil.svg"
+    }
+]
