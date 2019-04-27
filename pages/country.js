@@ -43,6 +43,10 @@ class Country extends React.Component {
         </div>
         <style jsx>
           {`
+          @font-face {
+            font-family: 'CaviarDreams';
+            src: url('${baseUrl}/static/CaviarDreams.ttf');
+          }
           .button-group {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -56,6 +60,7 @@ class Country extends React.Component {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('${baseUrl}/static/PeruBackground.png');
             background-size: cover;
             height: 100vh;
+            font-family: 'CaviarDreams';
           }
           .banner {
             background: #050505;
