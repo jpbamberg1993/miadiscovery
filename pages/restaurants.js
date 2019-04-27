@@ -1,7 +1,160 @@
-const Restaurants = () => (
-  <div>
-    <p>Restaurants Page</p>
-  </div>
-)
+import Link from 'next/link'
+import React, { Component } from 'react';
 
-export default Restaurants
+class Restaurant extends Component {
+
+  render() {
+    return (
+      <div className="Restaurants">
+        <h1 className="title"> Peruvian cuisine</h1>
+        <div className="List">
+          <ul><h2>CVI.CHE 105</h2>
+            <Link href="/description">
+              <a><li className="Res1"></li></a>
+            </Link>
+            <h2>Locura Marina</h2>
+            <Link href="/description">
+              <a ><li className="Res2"></li></a>
+            </Link>
+            <h2>GKB</h2>
+            <Link href="/description">
+              <a><li className="Res3"></li></a>
+            </Link>
+            <h2>O'lima Signature Cuisine</h2>
+            <Link href="/description">
+              <a><li className="Res4"></li></a>
+            </Link>
+            <h2>Pollos Y Jarras</h2>
+            <Link href="/description">
+              <a><li className="Res5"></li></a>
+            </Link>
+            <h2>Suviche Sobe</h2>
+            <Link href="/description">
+              <a><li className="Res6"></li></a>
+            </Link>
+            <h2>1111 Peruvian Bistro</h2>
+            <Link href="/description">
+              <a><li className="Res7"></li></a>
+            </Link>
+            <h2>Merkado 31</h2>
+            <Link href="/description">
+              <a><li className="Res8"></li></a>
+            </Link>
+            <h2>La Mar</h2>
+            <Link href="/description">
+              <a><li className="Res9"></li></a>
+            </Link>
+            <h2>Farolito Peruvian Cuisine</h2>
+            <Link href="/description">
+              <a><li className="Res0"></li></a>
+            </Link>
+          </ul>
+        </div>
+        <style jsx>{`
+        .body {
+          background-color: black;
+        }
+        .Restaurants{
+          background-color: black;
+          margin: -10px;
+          padding: -10px;
+          margin-top: -10px;
+          color: #4BB8AD;
+        }
+        .List {
+          margin: 50px;
+        }
+        .title {
+          display: flex;
+          justify-content: center;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          margin-bottom: 0rem;
+          border: solid 1px black;
+          height: 20rem;
+          color: #4BB8AD;
+        }
+        .Res1 {
+          background-color: pink;
+          background-image: url("/static/o.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res2 {
+          background-color: pink;
+          background-image: url("/static/m.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res3 {
+          background-color: pink;
+          background-image: url("/static/n.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res4 {
+          background-color: pink;
+          background-image: url("/static/p.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res5 {
+          background-color: pink;
+          background-image: url("/static/q.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res6 {
+          background-color: pink;
+          background-image: url("/static/r.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res7 {
+          background-color: pink;
+          background-image: url("/static/s.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res8 {
+          background-color: pink;
+          background-image: url("/static/t.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res9 {
+          background-color: pink;
+          background-image: url("/static/u.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .Res0 {
+          background-color: pink;
+          background-image: url("/static/v.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      `}</style>
+      </div>
+    );
+  }
+}
+
+
+export default Restaurant;
+
