@@ -2,54 +2,65 @@ import Link from 'next/link'
 import React, { Component } from 'react';
 
 class Restaurant extends Component {
+
   render() {
     return (
       <div className="Restaurants">
         <h1 className="title"> Peruvian cuisine</h1>
         <div className="List">
-          <ul><h1>CVI.CHE 105</h1>
+          <ul><h2>CVI.CHE 105</h2>
             <Link href="/description">
               <a><li className="Res1"></li></a>
             </Link>
-            <h1>Locura Marina</h1>
+            <h2>Locura Marina</h2>
             <Link href="/description">
-              <a><li className="Res2"></li></a>
+              <a ><li className="Res2"></li></a>
             </Link>
-            <h1>GKB</h1>
+            <h2>GKB</h2>
             <Link href="/description">
               <a><li className="Res3"></li></a>
             </Link>
-            <h1>O'lima Signature Cuisine</h1>
+            <h2>O'lima Signature Cuisine</h2>
             <Link href="/description">
               <a><li className="Res4"></li></a>
             </Link>
-            <h1>Pollos Y Jarras</h1>
+            <h2>Pollos Y Jarras</h2>
             <Link href="/description">
               <a><li className="Res5"></li></a>
             </Link>
-            <h1>Suviche Sobe</h1>
+            <h2>Suviche Sobe</h2>
             <Link href="/description">
               <a><li className="Res6"></li></a>
             </Link>
-            <h1>1111 Peruvian Bistro</h1>
+            <h2>1111 Peruvian Bistro</h2>
             <Link href="/description">
               <a><li className="Res7"></li></a>
             </Link>
-            <h1>Merkado 31</h1>
+            <h2>Merkado 31</h2>
             <Link href="/description">
               <a><li className="Res8"></li></a>
             </Link>
-            <h1>La Mar</h1>
+            <h2>La Mar</h2>
             <Link href="/description">
               <a><li className="Res9"></li></a>
             </Link>
-            <h1>Farolito Peruvian Cuisine</h1>
+            <h2>Farolito Peruvian Cuisine</h2>
             <Link href="/description">
               <a><li className="Res0"></li></a>
             </Link>
           </ul>
         </div>
         <style jsx>{`
+        .body {
+          background-color: black;
+        }
+        .Restaurants{
+          background-color: black;
+          margin: -10px;
+          padding: -10px;
+          margin-top: -10px;
+          color: #4BB8AD;
+        }
         .List {
           margin: 50px;
         }
@@ -66,6 +77,7 @@ class Restaurant extends Component {
           margin-bottom: 0rem;
           border: solid 1px black;
           height: 20rem;
+          color: #4BB8AD;
         }
         .Res1 {
           background-color: pink;
@@ -142,6 +154,7 @@ class Restaurant extends Component {
     );
   }
 }
+
 
 export default Restaurant;
 
