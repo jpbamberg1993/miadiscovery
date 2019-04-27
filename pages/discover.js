@@ -17,6 +17,7 @@ class Discover extends React.Component {
         'font-family': 'Misses',
         height: '80%',
         align: 'center',
+        padding: 0,
       },
       blockStyle: {
         'text-align': 'center',
@@ -37,6 +38,11 @@ class Discover extends React.Component {
             </li>
           ))}
         </ul>
+        <style jsx>{`
+          img {
+            width: 100%;
+          }
+        `}</style>
       </div>
     )
   }
