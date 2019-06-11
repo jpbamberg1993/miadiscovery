@@ -14,5 +14,20 @@
     "save": "^2.3.3",
     "styled-components": "^4.2.0",
     "video-react": "^0.13.6"
-  }
+  },
+  "name": "miadiscovery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbamberg1993/miadiscovery.git"
+  },
+  "author": "Corey Vernon <coreyvernon@hackerrank.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpbamberg1993/miadiscovery/issues"
+  },
+  "homepage": "https://github.com/jpbamberg1993/miadiscovery#readme",
+  "keywords": [],
+  "description": ""
 }
